@@ -1,0 +1,38 @@
+menus:
+  focus:
+    title: "&6学习计时器菜单"
+    size: 27
+
+    buttons:
+      - id: decrease
+        slot: 10
+        material: RED_TERRACOTA
+        label: "&c➖ 减少"
+        lore:
+          - "&7点击减少专注次数"
+
+      - id: display
+        slot: 13
+        material: CLOCK
+        label: "&e当前专注次数: %amount%"
+
+      - id: increase
+        slot: 16
+        material: GREEN_TERRACOTA
+        label: "&a➕ 增加"
+        lore:
+          - "&7点击增加专注次数"
+
+      - id: start
+        slot: 22
+        material: CLOCK
+        label: "&a开始学习！"
+        lore:
+          - "&725 分钟专注 + 5 分钟休息"
+
+      - id: about
+        slot: 26
+        material: BOOK
+        label: "&b什么是番茄工作法？"
+        lore:
+          - "&7提高效率，防止疲劳~ฅ"

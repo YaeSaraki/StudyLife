@@ -1,0 +1,29 @@
+focus-time: 25         # 专注分钟数
+break-time: 5          # 休息分钟数
+
+messages:
+  start-title: "§a开始专注"  # §a 是绿色 Green
+  start-subtitle: "§7当前轮次：§e%round%§7/§e%total%"  # §7灰色 §e黄色
+  break-title: "§e进入休息"  # §e黄色 Yellow
+  break-subtitle: "§d喵呜~专注结束，休息一下吧~"  # §d淡紫色 Light Purple
+  next-title: "§a开始下一轮"  # §a绿色 Green
+  next-subtitle: "§7第 §e%round% §7个番茄钟开始！"  # 灰色+黄色 Gray+Yellow
+  done-title: "§d全部完成！"  # 淡紫色 Light Purple
+  done-subtitle: "§6你完成了 §e%total% §6个番茄钟喵！"  # §6金色 Gold + §e黄色 Yellow
+  interrupt-title: "§c专注中断"  # §c红色 Red
+  interrupt-subtitle: "§4你动了喵，当前专注终止！"  # §4深红 Dark Red
+  actionbar: "§e剩余时间: §f%time%"  # 黄色 + 白色 Yellow + White
+  break-end-warning-title: "§6准备回归专注！"  # 金色 Gold
+  break-end-warning-subtitle: "§e还有 10 秒喵~"  # 黄色 Yellow
+  break-start-title: "§e进入休息阶段"  # 黄色 Yellow，原来是占位，改了更合理
+  break-start-subtitle: "§b你现在可以自由活动喵~ฅ^•ﻌ•^ฅ"  # 浅蓝色 Aqua
+  break-end-title: "§a休息结束了喵~"  # 绿色 Green
+  break-end-subtitle: "§e快回到专注地点吧！"  # 黄色 Yellow
+
+hologram:
+  state:
+    focus: "§a专注中ฅ (请勿打扰)"  # 绿色 Green
+    break: "§e休息中~"  # 黄色 Yellow
+    done: "§d已完成✔"  # 淡紫色 Light Purple
+  line1: "§7%state% §8 %time%"  # §7灰色，§8深灰色，时间用白色(%f可能是格式符，没改)
+  line2: "§6积累时间：§e%total_minutes% §6分钟"  # 金色+黄色 Gold + Yellow
